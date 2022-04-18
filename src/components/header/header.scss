@@ -1,0 +1,28 @@
+$color: #444;
+.header {
+    margin-top: 60px;
+    &Titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Lora', serif;
+        color:$color;
+        .headerTitleSm{
+            position: absolute;
+            top: 18%;
+            font-size: 20px;
+        
+        }
+        .headerTitleLg{
+            position: absolute;        
+            top: 20px;
+            font-size: 100px;
+        }
+    }
+    &Img{
+        width: 100%;
+        height: 450px;
+        margin-top: 80px;
+        object-fit: cover;
+    }
+}
